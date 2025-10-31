@@ -1,4 +1,4 @@
-# Online Course Platform: Student Performance & Engagement Analysis
+# Student Performance & Engagement Analysis in an Online Course 
 ### Part 1: Excel – Advanced Cleaning Tasks
 
 1.	Convert 'Time_Spent' values into hours (handle "30 mins", "1.5", etc.).
