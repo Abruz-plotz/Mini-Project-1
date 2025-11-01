@@ -67,7 +67,8 @@ To View the full dataset :-
 1) Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
 2) KPI Cards for Total Students, Avg. Progress, Avg. Rating, Course Completion Rate
 3) Bar/Column Charts for Students by Course Category, Completion rate by Country
-4) Matrix Table: Cross-tab: Course vs. Feedback Rating
+4) Used Matrix and Tables to analyse the Feedback Ratings of each course and get awareness of completion rate and average time spent per course
+                                        Pic
 5) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
 6) Drill-through to student details from summary cards.
 7) Use slicers: Course Category, Country, Experience Level
@@ -78,6 +79,9 @@ To View the full dataset :-
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
 pic:-
+
+CIII)**Interactive Dashboards**
+
 
 1. **Course and Completion :-** Displays total student enrollments by course and year.
 Shows completion details per country — quickly identifying regions with the highest completion rates.
