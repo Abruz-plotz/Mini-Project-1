@@ -1,7 +1,9 @@
 # Student Performance & Engagement Analysis in an Online Course 
 <br><br>
 ## Part A :- Introduction of dataset.
-    
+
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
+
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
 A glimse of original dataset is :- 
@@ -11,7 +13,7 @@ To View the full dataset :-
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
-    Pic
+   
 
 **AI) Dealing with inconsistencies** :-  
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
