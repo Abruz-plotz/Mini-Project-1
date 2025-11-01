@@ -7,7 +7,7 @@ This dataset showcases the activities and engagement patterns of students enroll
    
 **A glimse of original dataset is :- 🔴🔴** 
        
-        ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
 To View the full dataset :-
 <br><br>
