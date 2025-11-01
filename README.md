@@ -6,6 +6,7 @@
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
 **A glimse of original dataset is :- 🔴🔴** 
+       
         ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
 To View the full dataset :-
@@ -13,9 +14,11 @@ To View the full dataset :-
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
-**Glimse:- 🔴🔴**
+**Glimse:- After Pre-Processing 🔴🔴**
+   
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
+##### What all we did:-
 
 **BI) Dealing with inconsistencies** :-  
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
@@ -53,21 +56,18 @@ To View the full dataset :-
 ## Part C: Power BI :– Advanced Dashboard creation using PBI
 
  **Glimse:- 🔴🔴**
+
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
-**CI) Multi-page dashboard** :- Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
+##### What all we did:-
 
+**CI) Multi-page dashboard** :-
+1) Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
 2) KPI Cards for Total Students, Avg. Progress, Avg. Rating, Course Completion Rate
-
 3) Bar/Column Charts for Students by Course Category, Completion rate by Country
-
 4) Matrix Table: Cross-tab: Course vs. Feedback Rating
-
-5) Line/Area Chart for Enrollment trend by month
- Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
-
+5) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
 6) Drill-through to student details from summary cards.
-
 7) Use slicers: Course Category, Country, Experience Level
 
 **Tables Used**
