@@ -18,7 +18,7 @@ To View the full dataset :-
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
-### What all we did 🟧🟧:-
+### The Approach 🟧🟧:-
 
 **BI) Dealing with inconsistencies** :-  
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
@@ -60,7 +60,7 @@ To View the full dataset :-
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
-### What all we did 🟧🟧:-
+### The Approach 🟧🟧:-
 
 **CI) Tools used for dashboard** :-
 
