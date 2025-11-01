@@ -60,9 +60,10 @@ To View the full dataset :-
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
-##### What all we did 🟧🟧:-
+### What all we did 🟧🟧:-
 
-**CI) Multi-page dashboard** :-
+**CI) Tools used for dashboard** :-
+
 1) Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
 2) KPI Cards for Total Students, Avg. Progress, Avg. Rating, Course Completion Rate
 3) Bar/Column Charts for Students by Course Category, Completion rate by Country
@@ -70,17 +71,26 @@ To View the full dataset :-
 5) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
 6) Drill-through to student details from summary cards.
 7) Use slicers: Course Category, Country, Experience Level
+8) Scatter plot visual showing correlation between feedback rating and progress (%), grouped by performance level.
 
-**Tables Used**
-- `Students` → Student ID, Name, Country, Course, Join Date, Completed (Yes/No)
-- `Courses` → Course ID, Course Name, Category
-- `Enrollment` → Enrollment ID, Student ID, Course ID, Year
+**CII) New Column using DAX:-**
+   
+Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
-**Key Measures (DAX)**
-- Total Students = COUNT(Student[ID])
-- Completion % = DIVIDE(COUNTROWS(FILTER(Student, Student[Completed]="Yes")), COUNTROWS(Student))
-- Yearly Join Trend = COUNTROWS(Student)
+pic:-
 
-**Relationships**
-- Students[Student ID] → Enrollment[Student ID]
-- Courses[Course ID] → Enrollment[Course ID]
+1. **Course and Completion :-** Displays total student enrollments by course and year.
+Shows completion details per country — quickly identifying regions with the highest completion rates.
+Includes slicers to filter by course category (Business, Data Science, Design, etc.).
+Key insight: India has the highest student participation, while the overall completion rate varies across courses.
+
+**2. Summary and Feedback**
+
+Summarizes feedback ratings per course in a detailed matrix view.
+Displays overall course completion rate (46.99%) against a goal of 100%.
+Includes a completion rate vs. average time spent comparison for each course category.
+Key insight: Data Science and Design courses show strong engagement but moderate completion.
+
+🔵 3. Rating vs. Progress and KPI Cards
+
+Insight: High performers maintain progress above 70% with ratings ≥4; low performers cluster around lower progress percentages.
