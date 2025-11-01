@@ -5,7 +5,7 @@
    
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
-**A glimse of original dataset is :-** 
+**A glimse of original dataset is :- 🔴🔴** 
         
         ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
@@ -15,7 +15,7 @@ To View the full dataset :-
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
-**A glimse:-**
+**Glimse:- 🔴🔴**
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
 
@@ -46,7 +46,7 @@ To View the full dataset :-
                    IF(AND([@Age]>=31,[@Age]<=40),"Mid Career",  
                    IF(OR([@Age]=0,ISBLANK([@Age]),[@Age]<18),"Unknown","Senior"))))   </pre>
 
-3)  Created new column based on **Engagement Level** (based on Time Spent + Progress) 
+*3)*  Created new column based on **Engagement Level** (based on Time Spent + Progress) 
 
     <pre>   (Decimal progress X 10) + Time Spent(Hours)  </pre>
 
@@ -54,7 +54,7 @@ To View the full dataset :-
 <br><br>
 ## Part C: Power BI :– Advanced Dashboard creation using PBI
 
- **A glimse:-**
+ **Glimse:- 🔴🔴**
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
 **CI) Multi-page dashboard** :- Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
