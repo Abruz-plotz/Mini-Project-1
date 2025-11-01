@@ -18,12 +18,12 @@
 **AIV)	Create new columns:**	         
 1)  Created performance column and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
-  <pre>                   =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
+  <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         </pre>
                                               
 3)  Created new column Experience_Level (based on age: Student, Early Career, etc.)
                                         
-   <pre>                   =IF(AND([@Age]>=18,[@Age]<=22),"Student", 
+   <pre>                  =IF(AND([@Age]>=18,[@Age]<=22),"Student", 
                    IF(AND([@Age]>=23,[@Age]<=30),"Early Career", 
                    IF(AND([@Age]>=31,[@Age]<=40),"Mid Career",  
                    IF(OR([@Age]=0,ISBLANK([@Age]),[@Age]<18),"Unknown","Senior"))))   </pre>
