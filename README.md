@@ -9,7 +9,7 @@
 
 **AII) Dealing with null**             
 1) Fixed invalid/missing 'Age' entries using mean/median imputation.
- ***{IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age])}***
+<pre> IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age])} </pre>
 
 **AIII) Dealing with duplicates**      
     Identified duplicates and removed it using remove duplicates
@@ -19,7 +19,7 @@
 
 2)  Created new column Experience_Level (based on age: Student, Early Career, etc.)
                                         
-   <pre>                  IF(AND([@Age]>=18,[@Age]<=22),"Student", 
+   <pre>                     IF(AND([@Age]>=18,[@Age]<=22),"Student", 
                    IF(AND([@Age]>=23,[@Age]<=30),"Early Career", 
                    IF(AND([@Age]>=31,[@Age]<=40),"Mid Career", 
                    IF(OR([@Age]=0,ISBLANK([@Age]),[@Age]<18),"Unknown","Senior"))))   </pre>
