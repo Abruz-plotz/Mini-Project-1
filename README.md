@@ -28,7 +28,8 @@ To View the full dataset :-
 **BII) Dealing with null**             
 1) Fixed invalid/missing 'Age' entries using mean/median imputation.
 
-<pre> IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) </pre>
+   <pre>                  IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
+   </pre>
 
 **BIII) Dealing with duplicates**      
     Identified duplicates and removed it using remove duplicates
