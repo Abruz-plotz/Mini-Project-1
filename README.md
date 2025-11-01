@@ -2,18 +2,20 @@
 <br><br>
 ## Part A :- Introduction of dataset.
 
-   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
-
+   
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
 A glimse of original dataset is :- 
+        ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
+
 
 To View the full dataset :-
 <br><br>
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
-   
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
+
 
 **AI) Dealing with inconsistencies** :-  
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
@@ -49,7 +51,7 @@ To View the full dataset :-
 <br><br>
 ## Part C: Power BI :– Creating advanced Dashboards using PBI
  
- Pic :-
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
 
 Multi-page dashboard:
