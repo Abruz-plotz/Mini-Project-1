@@ -33,8 +33,8 @@ To View the full dataset :-
 **AIV)	Create new columns:**	         
 1)  Created performance column and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
-  <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
-                   IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         </pre>
+ > <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
+>                   IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         </pre>
                                               
 > ### 🧮 Excel Formula — Performance Flag  
 > 
