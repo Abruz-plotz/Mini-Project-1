@@ -5,7 +5,8 @@
    
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
-A glimse of original dataset is :- 
+**A glimse of original dataset is :-** 
+        
         ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
 
@@ -14,6 +15,7 @@ To View the full dataset :-
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
+**A glimse:-**
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
 
@@ -31,13 +33,13 @@ To View the full dataset :-
     Identified duplicates and removed it using remove duplicates
 
 **BIV)	Create new columns:**	         
-1)  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
+*1)*  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
 <pre>                    =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         
 </pre>
       
-2)  Created new column **Experience_Level** (based on age: Student, Early Career, etc.)
+*2)*  Created new column **Experience_Level** (based on age: Student, Early Career, etc.)
                                         
    <pre>                  =IF(AND([@Age]>=18,[@Age]<=22),"Student", 
                    IF(AND([@Age]>=23,[@Age]<=30),"Early Career", 
@@ -51,7 +53,8 @@ To View the full dataset :-
 
 <br><br>
 ## Part C: Power BI :– Advanced Dashboard creation using PBI
- 
+
+ **A glimse:-**
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
 **CI) Multi-page dashboard** :- Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
