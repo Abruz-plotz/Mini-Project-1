@@ -36,7 +36,7 @@ To View the full dataset :-
   <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         </pre>
                                               
- ```sql
+ ```excel
     =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))
  ```
