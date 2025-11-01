@@ -36,10 +36,11 @@ To View the full dataset :-
   <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         </pre>
                                               
- ```excel
-    =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
-   IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))
- ```
+> ### 🧮 Excel Formula — Performance Flag  
+> 
+> `=IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",  
+> IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))`
+
 
 3)  Created new column Experience_Level (based on age: Student, Early Career, etc.)
                                         
