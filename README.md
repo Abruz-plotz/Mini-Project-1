@@ -49,7 +49,7 @@ To View the full dataset :-
 
 
 <br><br>
-## Part C: Power BI :– Creating advanced Dashboards using PBI
+## Part C: Power BI :– Advanced Dashboard creation using PBI
  
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 
