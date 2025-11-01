@@ -5,6 +5,7 @@
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
    
 A glimse of original dataset is :- 
+
 To View the full dataset :-
 <br><br>
 
