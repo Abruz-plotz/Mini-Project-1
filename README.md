@@ -28,7 +28,7 @@ To View the full dataset :-
 **BII) Dealing with null**             
 1) Fixed invalid/missing 'Age' entries using mean/median imputation.
 
-   <pre>                  IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
+   <pre>                 =IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
    </pre>
 
 **BIII) Dealing with duplicates**      
@@ -37,7 +37,7 @@ To View the full dataset :-
 **BIV)	Create new columns:**	         
 *1)*  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
-<pre>                    =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
+<pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         
 </pre>
       
