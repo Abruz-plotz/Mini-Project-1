@@ -16,7 +16,7 @@ To View the full dataset :- [Original dataset](https://github.com/Abruz-plotz/Mi
 <br>
 </details>
 <details>
-     <summary> <h1> Part B: Excel :- Data preprocessing using Excel  </h1></summary>
+     <summary> <h1> Part B:- Excel : Data preprocessing using Excel  </h1></summary>
      
 <!--## Part B:- Excel : Data preprocessing using Excel--> 
 
