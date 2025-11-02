@@ -21,23 +21,21 @@ To download and view the data preprocessing, go to
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
-### The Approach 🟧🟧:-
-
-**BI) Dealing with inconsistencies** :-  
+#### BI) Dealing with inconsistencies   
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
 2) Split each session attended by students from the Session_Attendance column using Text to Columns with a **comma (,)** as the delimiter.
 3) Filtered out invalid email entries since email is the main identification for online students 
 
-**BII) Dealing with null**             
+#### BII) Dealing with null             
 1) Fixed invalid/missing 'Age' entries using mean/median imputation.
 
    <pre>               =IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
    </pre>
 
-**BIII) Dealing with duplicates**      
+#### BIII) Dealing with duplicates      
     Identified duplicates and removed it using remove duplicates
 
-**BIV)	Create new columns:**	         
+#### BIV) Create new columns	         
 *1)*  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
 <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
@@ -65,9 +63,7 @@ To download and view the data preprocessing, go to
  
  Some glimses of the dashboards are provided below.
 
-### The Approach 🟧🟧:-
-
-**CI) Tools used for dashboard** :-
+#### CI) Tools used for dashboard
 
 1) **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
 2) **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
@@ -88,14 +84,14 @@ To download and view the data preprocessing, go to
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
    
 <br><br>
-**CII) New Column using DAX:-**
+#### CII) New Column using DAX
 
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_Dax.png)
 
 <br><br>
-CIII)**Interactive Dashboards**  
+#### CIII) Interactive Dashboards  
 
 The dashboard enables users to explore data dynamically and identify patterns directly through interaction.
 For instance, to view students from the US who did not complete their courses, users can simply click on the respective column in the clustered bar chart.
@@ -105,13 +101,43 @@ This interactivity provides a clear, data-driven view of completion trends and c
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201_2nd.png)
 
 <br><br>
-## Part D : Summary and Feedback**
+## Part D : Conclusion
 
-Summarizes feedback ratings per course in a detailed matrix view.
-Displays overall course completion rate (46.99%) against a goal of 100%.
-Includes a completion rate vs. average time spent comparison for each course category.
-Key insight: Data Science and Design courses show strong engagement but moderate completion.
+#### DI)The Summary 
 
-🔵 3. Rating vs. Progress and KPI Cards
+**1) Data Preparation** -  Cleaned and standardized student-level data (1,143 records) by fixing missing values, standardizing categories, and creating derived fields such as Experience Level, Engagement Score, and Performance Tag using logical IF conditions.
 
-Insight: High performers maintain progress above 70% with ratings ≥4; low performers cluster around lower progress percentages.
+**2) Course Enrollment & Completion**-Web Development and Design attracted the highest enrollments (249 and 228 students).
+Average overall course-completion rate ≈ 47 %, indicating that more than half of the enrolled learners dropped out before finishing.
+Business courses showed the lowest completion (≈ 46 %), while Design performed best (≈ 49 %).
+
+**3) Geographical Distribution**- Students from India (186 completed) and UK (143 completed) formed the largest active groups.
+The U.S. and Canada had moderate participation but higher non-completion percentages.Country-level insights suggest regional differences in engagement behaviour.
+
+**4) Engagement & Performance Patterns**- Average Progress = 50 % Average Feedback Rating = 3.0 / 6.
+A positive correlation exists between Progress % and Feedback Rating — students who completed courses tend to provide higher ratings.
+Using DAX segmentation, learners were grouped as High Performer, Low Performer, or Not Completed, helping pinpoint improvement areas.
+
+**5) Temporal Trends**- Enrollment remained steady across 2022 – 2025 with visible seasonal peaks, implying marketing cycles or course-launch periods affect registrations.
+
+**6) Interactive Dashboard Insights** - Filtering by country or category instantly updates KPIs to display relevant completion counts and time-spent patterns.
+Example: selecting US – Not Completed filters visuals to 62 students distributed almost evenly across all courses.
+Summarizes feedback ratings per course in a detailed matrix view. 
+Drill-through pages reveal individual learner details and engagement heatmaps for deeper exploration.
+
+**7) Time Spent Analysis (DAX Metrics)**-Average time spent per student ≈ 338 hours across all categories.
+Web Development learners invested the most time (~367 h, 21 % share).
+Despite higher effort, completion rates remained below 50 %, suggesting potential content or engagement issues.
+
+#### DII)The Insights
+
+**1)** High enrollment does not guarantee high completion — targeted retention strategies are needed.
+**2)** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.
+**3)** Regional differences highlight the need for localized learning support.
+**4)** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.
+**5)** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.
+
+#### DIII) Action Plan
+
+**1)** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
+**2)** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
