@@ -80,19 +80,20 @@ Identified duplicates and removed it using **"Remove Duplicates**
 ***(2)*** **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.<br>
 ***(3)*** **Line & Area Charts** – Displayed enrollment trends over time.<br>   
 
-![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 <br><br>
-***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.<br><br>
-    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
+***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.<br>
+***(5)*** **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights at last column.<br><br>
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
 <br><br>
-***(5)*** **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
-***(6)*** **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.<br><br>
+***(6)*** **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
+***(7)*** **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.<br><br>
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
 <br><br>
+***(8)*** **Summary Page** - Created a summary page of important attributes and provided drill-through to it in each column.<br>
+***(7)*** **Heat Maps** - Given heatmap for engagement level at summary page.<br><br>
 
-***(7)*** **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
-
-    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
    
 <br><br>
 ### CII) New Column using DAX
