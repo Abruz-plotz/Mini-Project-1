@@ -95,11 +95,16 @@ Using DAX formula, we create a summary table by course category, showing how stu
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_Dax.png)
 
 <br><br>
-CIII)**Interactive Dashboards** :- The interaction helps users to find direct patters and answers there. To know the information of students who joined from US and did not complete the course, just click on the clustered column chart bearing that information. Here when you click, you get the trend of such students joined,the distribution of such students are equal for almost all courses. And the KPI indicates there are 62 of such students. 
-Hence, We get a clear picture of each category we need just from the interactive dashboard 
+CIII)**Interactive Dashboards**  
 
+The dashboard enables users to explore data dynamically and identify patterns directly through interaction.
+For instance, to view students from the US who did not complete their courses, users can simply click on the respective column in the clustered bar chart.
+This interaction instantly updates all visuals — showing the trend of such students over the years, their distribution across different courses, and the corresponding KPI highlighting 62 students in total.
+This interactivity provides a clear, data-driven view of completion trends and category-wise performance at a glance.
+  
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201_2nd.png)
 
+<br><br>
 ## Part D : Summary and Feedback**
 
 Summarizes feedback ratings per course in a detailed matrix view.
