@@ -19,14 +19,15 @@ To View the full dataset :-
      <summary> <h1> Part B: Excel :- Data preprocessing using Excel  </h1></summary>
      
 <!--## Part B:- Excel : Data preprocessing using Excel--> 
-
+<details>
+     <summary> <h3> BI) A glimse </h3></summary>
 To download and view the data preprocessing, go to 
 [Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
 
 **After Pre-Processing 🔴🔴**
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
-
+</details>
 <details>
      <summary> <h3> BI) Dealing with inconsistencies  </h3></summary>
 
