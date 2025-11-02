@@ -56,10 +56,9 @@ To View the full dataset :-
 <br><br>
 ## Part C: Power BI :– Advanced Dashboard creation using PBI
 
- Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights. To veiw the complete PBI file, download the file using 
- https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20PBI.pbix
- [![View Dashboard](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)](https://app.powerbi.com/view?r=eyJrIjoiABC123XYZ")
-
+ Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights. To veiw the complete PBI file, download using:-
+ [Download Power BI (.pbix) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20PBI.pbix)
+Some glimses of the dashboards are provided below.
 
 ### The Approach 🟧🟧:-
 
