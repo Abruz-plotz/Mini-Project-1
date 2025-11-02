@@ -1,5 +1,5 @@
 # Student Performance & Engagement Analysis in an Online Course 
-<br><br>
+<br>
 <details>
      <summary> <h1> Part A :- Introduction of dataset </h1></summary>
    
@@ -13,7 +13,7 @@ This dataset showcases the activities and engagement patterns of students enroll
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
 To View the full dataset :-
-<br><br>
+<br>
 </details>
 <details>
      <summary> <h1> Part B: Excel :- Data preprocessing using Excel  </h1></summary>
@@ -60,7 +60,8 @@ To download and view the data preprocessing, go to
     <pre>   (Decimal progress X 10) + Time Spent(Hours)  </pre>
 
 </details>
-<br><br>
+
+<br>
 <details>
      <summary> <h1> Part C: Power BI :– Advanced Dashboard creation using PBI </h1></summary>
 
@@ -154,3 +155,4 @@ Despite higher effort, completion rates remained below 50 %, suggesting potentia
 
 **1)** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
 **2)** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
+</details>
