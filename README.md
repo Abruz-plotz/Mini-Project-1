@@ -74,30 +74,31 @@ To download and view the data preprocessing, go to
 3) **Line & Area Charts** – Displayed enrollment trends over time.   
 
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
-
+<br><br>
 4) **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
-
+<br><br>
 5) **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
 6) **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
-
+<br><br>
 
 7) **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
 
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
    
-
+<br><br>
 **CII) New Column using DAX:-**
 
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_Dax.png)
 
+<br><br>
+CIII)**Interactive Dashboards** :- The interaction helps users to find direct patters and answers there. To know the information of students who joined from US and did not complete the course, just click on the clustered column chart bearing that information. Here when you click, you get the trend of such students joined,the distribution of such students are equal for almost all courses. And the KPI indicates there are 62 of such students. 
+Hence, We get a clear picture of each category we need just from the interactive dashboard 
 
-CIII)**Interactive Dashboards** :- The interaction helps users to find direct patters and answers there 
-
-
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201_2nd.png)
 
 ## Part D : Summary and Feedback**
 
