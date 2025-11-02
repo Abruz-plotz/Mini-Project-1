@@ -1,5 +1,6 @@
 # Student Performance & Engagement Analysis in an Online Course 
 <br><br>
+<details>
 ## Part A :- Introduction of dataset.
 
    
@@ -11,6 +12,7 @@ This dataset showcases the activities and engagement patterns of students enroll
 
 To View the full dataset :-
 <br><br>
+<details>
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
