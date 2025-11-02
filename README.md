@@ -61,7 +61,6 @@ To download and view the data preprocessing, go to
 
 </details>
 
-<br>
 <details>
      <summary> <h1> Part C: Power BI :– Advanced Dashboard creation using PBI </h1></summary>
 
@@ -111,7 +110,7 @@ This interactivity provides a clear, data-driven view of completion trends and c
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201_2nd.png)
 
 </details>
-<br><br>
+
 <details>
      <summary> <h1> Part D : Conclusion </h1></summary>
 
