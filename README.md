@@ -68,11 +68,12 @@ To View the full dataset :-
 2) KPI Cards for Total Students, Avg. Progress, Avg. Rating, Course Completion Rate
 3) Bar/Column Charts for Students by Course Category, Completion rate by Country
 4) Used Matrix and Tables to analyse the Feedback Ratings of each course and get awareness of completion rate and average time spent per course
-                                        Pic
-5) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
-6) Drill-through to student details from summary cards.
-7) Use slicers: Course Category, Country, Experience Level
-8) Scatter plot visual showing correlation between feedback rating and progress (%), grouped by performance level.
+
+   Pic
+6) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
+7) Drill-through to student details from summary cards.
+8) Use slicers: Course Category, Country, Experience Level
+9) Scatter plot visual showing correlation between feedback rating and progress (%), grouped by performance level.
 
 **CII) New Column using DAX:-**
    
