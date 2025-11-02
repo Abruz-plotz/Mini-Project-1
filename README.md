@@ -77,10 +77,11 @@ To View the full dataset :-
 8) Scatter plot visual showing correlation between feedback rating and progress (%), grouped by performance level.
 
 **CII) New Column using DAX:-**
+
    
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
-pic:-
+     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_DAX.png)
 
 CIII)**Interactive Dashboards**
 
