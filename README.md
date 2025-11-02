@@ -1,6 +1,8 @@
 # Student Performance & Engagement Analysis in an Online Course 
 <br><br>
 <details>
+     <summary>📈 Course and Completion Dashboard</summary>
+   
 ## Part A :- Introduction of dataset.
 
    
