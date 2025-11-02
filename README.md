@@ -15,7 +15,7 @@ To View the full dataset :-
 ## Part B: Excel :- Data preprocessing using Excel 
 
 To download and view the data preprocessing, go to 
-[Download Power BI (.pbix) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
+[Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
 
 **After Pre-Processing 🔴🔴**
    
