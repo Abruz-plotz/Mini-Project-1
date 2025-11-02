@@ -115,7 +115,7 @@ This interactivity provides a clear, data-driven view of completion trends and c
 </details>
 
 <details>
-     <summary> <h1> Part D :- Conclusion </h1></summary>
+     <summary> <h1> Part D :- The Summary and Action Plan </h1></summary>
 
 <!--## Part D : Conclusion-->
 
@@ -151,8 +151,12 @@ Despite higher effort, completion rates remained below 50 %, suggesting potentia
 
 ***(2)*** India and the UK have the highest number of completions, while the US and Canada show high dropout rates — implying that regional learner support and timezone flexibility could improve participation.<br>
 
-***(3)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.<br>
-***(3)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.<br>
-***(4)*** Regional differences highlight the need for localized learning support.<br>
-***(5)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.<br>
+***(3)*** A positive correlation between progress and feedback rating suggests that engaged learners tend to perform better; encouraging consistent participation can raise overall course satisfaction.<br>
+
+***(4)*** Interactive dashboards show that most learners explore multiple courses, implying that cross-course recommendations or bundled learning paths could increase total engagement.<br>
+
+***(5)*** Mid-career professionals demonstrate steady progress but moderate ratings, suggesting the need for more advanced or practical case studies to keep content challenging and relevant.<br>
+
+***(6)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.<br>
+
 
