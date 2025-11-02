@@ -27,23 +27,23 @@ To download and view the data preprocessing, go to
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
-#### BI) Dealing with inconsistencies  
+### BI) Dealing with inconsistencies  
 
 ***(1)*** Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
 ***(2)*** Split each session attended by students from the Session_Attendance column using Text to Columns with a **comma (,)** as the delimiter.
 ***(3)*** Filtered out invalid email entries since email is the main identification for online students 
 
-#### BII) Dealing with null
+### BII) Dealing with null
      
  Fixed invalid/missing 'Age' entries using mean/median imputation.
 
    <pre>               =IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
    </pre>
 
-#### BIII) Dealing with duplicates    
+### BIII) Dealing with duplicates    
     Identified duplicates and removed it using remove duplicates
 
-#### BIV) Create new columns	         
+### BIV) Create new columns	         
 
 ***(1)***  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
@@ -74,7 +74,7 @@ To download and view the data preprocessing, go to
  
  Some glimses of the dashboards are provided below.
 
-#### CI) Tools used for dashboard
+### CI) Tools used for dashboard
 
 ***(1)*** **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
 ***(2)*** **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
@@ -95,14 +95,14 @@ To download and view the data preprocessing, go to
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
    
 <br><br>
-#### CII) New Column using DAX
+### CII) New Column using DAX
 
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_Dax.png)
 
 <br><br>
-#### CIII) Interactive Dashboards  
+### CIII) Interactive Dashboards  
 
 The dashboard enables users to explore data dynamically and identify patterns directly through interaction.
 For instance, to view students from the US who did not complete their courses, users can simply click on the respective column in the clustered bar chart.
@@ -118,7 +118,7 @@ This interactivity provides a clear, data-driven view of completion trends and c
 
 <!--## Part D : Conclusion-->
 
-#### DI)The Summary 
+### DI)The Summary 
 
 ***(1)*** Data Preparation** -  Cleaned and standardized student-level data (1,143 records) by fixing missing values, standardizing categories, and creating derived fields such as Experience Level, Engagement Score, and Performance Tag using logical IF conditions.
 
@@ -144,7 +144,7 @@ Drill-through pages reveal individual learner details and engagement heatmaps fo
 Web Development learners invested the most time (~367 h, 21 % share).
 Despite higher effort, completion rates remained below 50 %, suggesting potential content or engagement issues.
 
-#### DII)The Insights
+### DII)The Insights
 
 ***(1)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.
 ***(2)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.
@@ -152,7 +152,7 @@ Despite higher effort, completion rates remained below 50 %, suggesting potentia
 ***4)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.
 ***(5)*** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.
 
-#### DIII) Action Plan
+### DIII) Action Plan
 
 ***(1)*** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
 ***(2)*** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
