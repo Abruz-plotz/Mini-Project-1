@@ -13,8 +13,6 @@ This dataset showcases the activities and engagement patterns of students enroll
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_Unprocessed.png)
 
 To View the full dataset :- [Original dataset](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Uncleaned%20data.csv)
-                         [🧾 View Uncleaned Data (CSV)](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Uncleaned%20data.csv)
-
 <br>
 </details>
 <details>
