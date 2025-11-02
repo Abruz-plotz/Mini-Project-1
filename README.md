@@ -21,7 +21,8 @@ To View the full dataset :-
 <!--## Part B:- Excel : Data preprocessing using Excel--> 
 <details>
      <summary> <h3> BI) A glimse </h3></summary>
-To download and view the data preprocessing, go to 
+
+     To download and view the data preprocessing, go to 
 [Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
 
 **After Pre-Processing 🔴🔴**
