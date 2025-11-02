@@ -148,7 +148,9 @@ Despite higher effort, completion rates remained below 50 %, suggesting potentia
 ### DII)The Insights and Action Plan
 
 ***(1)*** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.Hence,Increasing mentorship support here can give high completion level.<br>
-***(2)*** India and the UK have the highest number of completions, while the US and Canada show high dropout rates — implying that regional learner support and timezone flexibility could improve participation.
+
+***(2)*** India and the UK have the highest number of completions, while the US and Canada show high dropout rates — implying that regional learner support and timezone flexibility could improve participation.<br>
+
 ***(3)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.<br>
 ***(3)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.<br>
 ***(4)*** Regional differences highlight the need for localized learning support.<br>
