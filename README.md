@@ -16,7 +16,7 @@ To View the full dataset :- [Original dataset](https://github.com/Abruz-plotz/Mi
 <br>
 </details>
 <details>
-     <summary> <h1> Part B:- Excel : Data preprocessing using Excel  </h1></summary>
+     <summary> <h1> Part B :- Excel : Data preprocessing using Excel  </h1></summary>
      
 <!--## Part B:- Excel : Data preprocessing using Excel--> 
 
@@ -64,7 +64,7 @@ To download and view the data preprocessing, go to
 </details>
 
 <details>
-     <summary> <h1> Part C:- Power BI : Advanced Dashboard creation using PBI </h1></summary>
+     <summary> <h1> Part C :- Power BI : Advanced Dashboard creation using PBI </h1></summary>
 
 <!--## Part C: Power BI :– Advanced Dashboard creation using PBI-->
 
