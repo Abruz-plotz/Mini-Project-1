@@ -41,7 +41,7 @@ To download and view the data preprocessing by Excel :-
    </pre>
 
 ### BIII) Dealing with duplicates    
-    Identified duplicates and removed it using remove duplicates
+Identified duplicates and removed it using **"Remove Duplicates**
 
 ### BIV) Create new columns	         
 
