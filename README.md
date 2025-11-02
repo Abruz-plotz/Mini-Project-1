@@ -18,7 +18,7 @@ To View the full dataset :-
 <details>
      <summary> <h1> Part B: Excel :- Data preprocessing using Excel  </h1></summary>
      
-<!--## Part B: Excel :- Data preprocessing using Excel--> 
+<!--## Part B:- Excel : Data preprocessing using Excel--> 
 
 To download and view the data preprocessing, go to 
 [Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
@@ -62,7 +62,7 @@ To download and view the data preprocessing, go to
 </details>
 
 <details>
-     <summary> <h1> Part C: Power BI :– Advanced Dashboard creation using PBI </h1></summary>
+     <summary> <h1> Part C:- Power BI : Advanced Dashboard creation using PBI </h1></summary>
 
 <!--## Part C: Power BI :– Advanced Dashboard creation using PBI-->
 
@@ -112,7 +112,7 @@ This interactivity provides a clear, data-driven view of completion trends and c
 </details>
 
 <details>
-     <summary> <h1> Part D : Conclusion </h1></summary>
+     <summary> <h1> Part D :- Conclusion </h1></summary>
 
 <!--## Part D : Conclusion-->
 
