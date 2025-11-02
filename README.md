@@ -27,21 +27,32 @@ To download and view the data preprocessing, go to
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
-#### BI) Dealing with inconsistencies   
+<details>
+     <summary> <h3> BI) Dealing with inconsistencies  </h3></summary>
+
+<!--#### BI) Dealing with inconsistencies  --> 
 1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
 2) Split each session attended by students from the Session_Attendance column using Text to Columns with a **comma (,)** as the delimiter.
 3) Filtered out invalid email entries since email is the main identification for online students 
-
-#### BII) Dealing with null             
+</details>
+<details>
+     <summary> <h3>  BII) Dealing with null   </h3></summary>
+<!--#### BII) Dealing with null-->  
+     
 1) Fixed invalid/missing 'Age' entries using mean/median imputation.
 
    <pre>               =IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
    </pre>
-
-#### BIII) Dealing with duplicates      
+</details>
+<details>
+     <summary> <h3>  BIII) Dealing with duplicates  </h3></summary>
+<!--#### BIII) Dealing with duplicates-->      
     Identified duplicates and removed it using remove duplicates
+</details>
+<details>
+     <summary> <h3>  BIV) Create new columns  </h3></summary>
+<!--#### BIV) Create new columns-->	         
 
-#### BIV) Create new columns	         
 *1)*  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
 <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
@@ -59,6 +70,7 @@ To download and view the data preprocessing, go to
 
     <pre>   (Decimal progress X 10) + Time Spent(Hours)  </pre>
 
+</details>
 </details>
 
 <details>
