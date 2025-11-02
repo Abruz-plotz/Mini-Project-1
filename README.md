@@ -64,26 +64,28 @@ To View the full dataset :-
 
 **CI) Tools used for dashboard** :-
 
-1) Created dashboards for Overview Page (KPIs, summary),Category Analysis,Engagement Heatmaps
-2) KPI Cards for Total Students, Avg. Progress, Avg. Rating, Course Completion Rate
-3) Bar/Column Charts for Students by Course Category, Completion rate by Country
-4) Used Matrix and Tables to analyse the Feedback Ratings of each course and get awareness of completion rate and average time spent per course
+1) Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights.
+2) **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.  
+3)  **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.  
+4) **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
 
      ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
 
-5) Line/Area Chart for Enrollment trend by month Custom Measures (DAX) for Completion % by Category,Avg. Time Spent per Category,Correlation between Progress and Rating (scatter plot)
-6) Drill-through to student details from summary cards.
-7) Use slicers: Course Category, Country, Experience Level
-8) Scatter plot visual showing correlation between feedback rating and progress (%), grouped by performance level.
+5) **Line & Area Charts** – Displayed enrollment trends over time.  
+6) **Custom DAX Measures** – Calculated Completion % by Category, Average Time Spent per Category, and Correlation between Progress and Rating (Scatter Plot).
+7) **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
+8) **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
+9) **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
 
-**CII) New Column using DAX:-**
+   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
 
    
+**CII) New Column using DAX:-**
 Using DAX formula, we create a summary table by course category, showing how students perform and engage in each course. It calculates enrollments, completions, completion rate, total and average time spent, and each course’s share of total study time, helping to evaluate overall learning performance and effort distribution.
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI_Dax.png)
 
-CIII)**Interactive Dashboards**
+CIII)**Interactive Dashboards** :- The interaction helps users to find direct patters and answers there 
 
 
 1. **Course and Completion :-** Displays total student enrollments by course and year.
