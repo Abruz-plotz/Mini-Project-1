@@ -3,7 +3,7 @@
 <details>
      <summary> <h1> Part A :- Introduction of dataset </h1></summary>
    
-## Part A :- Introduction of dataset.
+<!--## Part A :- Introduction of dataset.-->
 
    
 This dataset showcases the activities and engagement patterns of students enrolled in various online courses in a single platform. It contains raw and inconsistent information about student activity.It is cleaned and analyzed using Microsoft Excel for data preparation and Power BI for building an interactive dashboard that highlights learner progress, attendance, and feedback. 
@@ -14,7 +14,7 @@ This dataset showcases the activities and engagement patterns of students enroll
 
 To View the full dataset :-
 <br><br>
-<details>
+</details>
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
