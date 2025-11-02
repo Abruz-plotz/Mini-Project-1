@@ -149,6 +149,6 @@ Despite higher effort, completion rates remained below 50 %, suggesting potentia
 
 ***(1)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.<br>
 ***(2)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.<br>
-***3)*** Regional differences highlight the need for localized learning support.<br>
-***4)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.<br>
+***(3)*** Regional differences highlight the need for localized learning support.<br>
+***(4)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.<br>
 ***(5)*** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.<br>
