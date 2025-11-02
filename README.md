@@ -15,8 +15,10 @@ This dataset showcases the activities and engagement patterns of students enroll
 To View the full dataset :-
 <br><br>
 </details>
-
-## Part B: Excel :- Data preprocessing using Excel 
+<details>
+     <summary> <h1> Part B: Excel :- Data preprocessing using Excel  </h1></summary>
+     
+<!--## Part B: Excel :- Data preprocessing using Excel--> 
 
 To download and view the data preprocessing, go to 
 [Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
@@ -57,9 +59,12 @@ To download and view the data preprocessing, go to
 
     <pre>   (Decimal progress X 10) + Time Spent(Hours)  </pre>
 
-
+</details>
 <br><br>
-## Part C: Power BI :– Advanced Dashboard creation using PBI
+<details>
+     <summary> <h1> Part C: Power BI :– Advanced Dashboard creation using PBI </h1></summary>
+
+<!--## Part C: Power BI :– Advanced Dashboard creation using PBI-->
 
  Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights. To veiw the complete PBI file, download using:-
  [Download Power BI (.pbix) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20PBI.pbix)
@@ -104,8 +109,12 @@ This interactivity provides a clear, data-driven view of completion trends and c
   
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201_2nd.png)
 
+</details>
 <br><br>
-## Part D : Conclusion
+<details>
+     <summary> <h1> Part D : Conclusion </h1></summary>
+
+<!--## Part D : Conclusion-->
 
 #### DI)The Summary 
 
