@@ -145,6 +145,7 @@ Drill-through pages reveal individual learner details and engagement heatmaps fo
 Web Development learners invested the most time (~367 h, 21 % share).
 Despite higher effort, completion rates remained below 50 %, suggesting potential content or engagement issues.
 
+<br><br>
 ### DII)The Insights and Action Plan
 
 ***(1)*** Data Science and Design courses show strong engagement but moderate completion. Hence,Learners are actively participating but not up to completing the course.Hence,Increasing mentorship support here can give high completion level.<br>
