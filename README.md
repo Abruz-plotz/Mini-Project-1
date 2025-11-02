@@ -82,11 +82,11 @@ To download and view the data preprocessing, go to
 
 ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 <br><br>
-***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
+***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.<br><br>
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
 <br><br>
 ***(5)*** **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
-***(6)*** **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.
+***(6)*** **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.<br><br>
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
 <br><br>
 
