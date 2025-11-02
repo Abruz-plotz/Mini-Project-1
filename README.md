@@ -14,7 +14,7 @@ To View the full dataset :-
 
 ## Part B: Excel :- Data preprocessing using Excel 
 
-**Glimse:- After Pre-Processing 🔴🔴**
+**After Pre-Processing 🔴🔴**
    
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/Excel_After.png)
 
@@ -56,26 +56,27 @@ To View the full dataset :-
 <br><br>
 ## Part C: Power BI :– Advanced Dashboard creation using PBI
 
- **Glimse:- 🔴🔴**
-
-   ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
+ Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights.
 
 ### The Approach 🟧🟧:-
 
 **CI) Tools used for dashboard** :-
 
-1) Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights.
-2) **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.  
-3)  **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.  
+1) **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
+2) **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
+3) **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.  
+
+    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
+
 4) **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
 
-     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
+    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
 
 5) **Line & Area Charts** – Displayed enrollment trends over time.  
 6) **Custom DAX Measures** – Calculated Completion % by Category, Average Time Spent per Category, and Correlation between Progress and Rating (Scatter Plot).
 7) **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
-8) **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
-9) **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
+
+8) **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
 
    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
 
