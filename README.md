@@ -76,11 +76,11 @@ To download and view the data preprocessing, go to
 
 ### CI) Tools used for dashboard
 
-***(1)*** **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
-***(2)*** **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
-***(3)*** **Line & Area Charts** – Displayed enrollment trends over time.   
+***(1)*** **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.<br>
+***(2)*** **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.<br>
+***(3)*** **Line & Area Charts** – Displayed enrollment trends over time.<br>   
 
-    ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
+![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 <br><br>
 ***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
