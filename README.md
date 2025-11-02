@@ -59,7 +59,7 @@ To View the full dataset :-
  Created interactive dashboards to provide a clear overview of key metrics and uncover actionable insights. To veiw the complete PBI file, download using:-
  [Download Power BI (.pbix) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20PBI.pbix)
 
- <br>
+ 
  Some glimses of the dashboards are provided below.
 
 ### The Approach 🟧🟧:-
