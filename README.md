@@ -145,16 +145,10 @@ Drill-through pages reveal individual learner details and engagement heatmaps fo
 Web Development learners invested the most time (~367 h, 21 % share).
 Despite higher effort, completion rates remained below 50 %, suggesting potential content or engagement issues.
 
-### DII)The Insights
+### DII)The Insights and Action Plan
 
 ***(1)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.<br>
 ***(2)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.<br>
 ***3)*** Regional differences highlight the need for localized learning support.<br>
 ***4)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.<br>
 ***(5)*** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.<br>
-
-### DIII) Action Plan
-
-***(1)*** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
-***(2)*** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
-</details>
