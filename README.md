@@ -20,7 +20,7 @@ To View the full dataset :-
      
 <!--## Part B:- Excel : Data preprocessing using Excel--> 
 
-     To download and view the data preprocessing, go to 
+To download and view the data preprocessing, go to 
 [Download Excel(.xlxs) file](https://github.com/Abruz-plotz/Mini-Project-1/blob/main/Mini%20Project%20Excel.xlsx)
 
 **After Pre-Processing 🔴🔴**
@@ -29,13 +29,13 @@ To View the full dataset :-
 
 #### BI) Dealing with inconsistencies  
 
-1) Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
-2) Split each session attended by students from the Session_Attendance column using Text to Columns with a **comma (,)** as the delimiter.
-3) Filtered out invalid email entries since email is the main identification for online students 
+***(1)*** Converted 'Time_Spent' values into hours (handle "30 mins", "1.5", etc) using find and replace method.
+***(2)*** Split each session attended by students from the Session_Attendance column using Text to Columns with a **comma (,)** as the delimiter.
+***(3)*** Filtered out invalid email entries since email is the main identification for online students 
 
 #### BII) Dealing with null
      
-1) Fixed invalid/missing 'Age' entries using mean/median imputation.
+ Fixed invalid/missing 'Age' entries using mean/median imputation.
 
    <pre>               =IF(OR([@Age]=0,ISBLANK([@Age])),ROUND(AVERAGE(FILTER(F2:F1144,F2:F1144<>0)),0),[@Age]) 
    </pre>
@@ -45,20 +45,20 @@ To View the full dataset :-
 
 #### BIV) Create new columns	         
 
-*1)*  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
+***(1)***  Created **Performance column** and added a flag for "High Performer": Completed == Yes and Rating ≥ 4.
 
 <pre>                  =IF(AND([@Completed]="Yes",[@[Feedback_Rating]]>3),"High Performer",
                    IF(AND([@Completed]="Yes",[@[Feedback_Rating]]<=3),"Low Performer","Not Completed"))         
 </pre>
       
-*2)*  Created new column **Experience_Level** (based on age: Student, Early Career, etc.)
+***(2)***  Created new column **Experience_Level** (based on age: Student, Early Career, etc.)
                                         
    <pre>                  =IF(AND([@Age]>=18,[@Age]<=22),"Student", 
                    IF(AND([@Age]>=23,[@Age]<=30),"Early Career", 
                    IF(AND([@Age]>=31,[@Age]<=40),"Mid Career",  
                    IF(OR([@Age]=0,ISBLANK([@Age]),[@Age]<18),"Unknown","Senior"))))   </pre>
 
-*3)*  Created new column based on **Engagement Level** (based on Time Spent + Progress) 
+***(3)***  Created new column based on **Engagement Level** (based on Time Spent + Progress) 
 
     <pre>   (Decimal progress X 10) + Time Spent(Hours)  </pre>
 </details>
@@ -76,21 +76,21 @@ To View the full dataset :-
 
 #### CI) Tools used for dashboard
 
-1) **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
-2) **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
-3) **Line & Area Charts** – Displayed enrollment trends over time.   
+***(1)*** **Bar & Column Charts** – Visualized Students by Course Category and Completion Rate by Country.
+***(2)*** **Slicers & Filters** – Integrated by Course Category, Country, and Experience Level for interactive exploration.
+***(3)*** **Line & Area Charts** – Displayed enrollment trends over time.   
 
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%201.png)
 <br><br>
-4) **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
+***(4)*** **Matrix Tables** – Analyzed feedback ratings per course to evaluate completion rate and average time spent per learner.
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%202.png)
 <br><br>
-5) **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
-6) **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.
+***(5)*** **Scatter Plot Visualization** – Highlighted correlation between Feedback Rating and Progress (%), grouped by performance level.
+***(6)*** **KPI Cards** – Total Students, Average Progress, Average Rating, and Course Completion Rate.
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%203.png)
 <br><br>
 
-7) **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
+***(7)*** **Drill-through Pages** – Enabled user navigation to detailed student-level performance insights.
 
     ![Result](https://raw.githubusercontent.com/Abruz-plotz/Mini-Project-1/main/Images/PBI%204.png)
    
@@ -120,40 +120,40 @@ This interactivity provides a clear, data-driven view of completion trends and c
 
 #### DI)The Summary 
 
-**1) Data Preparation** -  Cleaned and standardized student-level data (1,143 records) by fixing missing values, standardizing categories, and creating derived fields such as Experience Level, Engagement Score, and Performance Tag using logical IF conditions.
+***(1)*** Data Preparation** -  Cleaned and standardized student-level data (1,143 records) by fixing missing values, standardizing categories, and creating derived fields such as Experience Level, Engagement Score, and Performance Tag using logical IF conditions.
 
-**2) Course Enrollment & Completion**-Web Development and Design attracted the highest enrollments (249 and 228 students).
+***(2)*** Course Enrollment & Completion**-Web Development and Design attracted the highest enrollments (249 and 228 students).
 Average overall course-completion rate ≈ 47 %, indicating that more than half of the enrolled learners dropped out before finishing.
 Business courses showed the lowest completion (≈ 46 %), while Design performed best (≈ 49 %).
 
-**3) Geographical Distribution**- Students from India (186 completed) and UK (143 completed) formed the largest active groups.
+***(3)*** Geographical Distribution**- Students from India (186 completed) and UK (143 completed) formed the largest active groups.
 The U.S. and Canada had moderate participation but higher non-completion percentages.Country-level insights suggest regional differences in engagement behaviour.
 
-**4) Engagement & Performance Patterns**- Average Progress = 50 % Average Feedback Rating = 3.0 / 6.
+***(4)*** Engagement & Performance Patterns**- Average Progress = 50 % Average Feedback Rating = 3.0 / 6.
 A positive correlation exists between Progress % and Feedback Rating — students who completed courses tend to provide higher ratings.
 Using DAX segmentation, learners were grouped as High Performer, Low Performer, or Not Completed, helping pinpoint improvement areas.
 
-**5) Temporal Trends**- Enrollment remained steady across 2022 – 2025 with visible seasonal peaks, implying marketing cycles or course-launch periods affect registrations.
+***(5)*** Temporal Trends**- Enrollment remained steady across 2022 – 2025 with visible seasonal peaks, implying marketing cycles or course-launch periods affect registrations.
 
-**6) Interactive Dashboard Insights** - Filtering by country or category instantly updates KPIs to display relevant completion counts and time-spent patterns.
+***(6)*** Interactive Dashboard Insights** - Filtering by country or category instantly updates KPIs to display relevant completion counts and time-spent patterns.
 Example: selecting US – Not Completed filters visuals to 62 students distributed almost evenly across all courses.
 Summarizes feedback ratings per course in a detailed matrix view. 
 Drill-through pages reveal individual learner details and engagement heatmaps for deeper exploration.
 
-**7) Time Spent Analysis (DAX Metrics)**-Average time spent per student ≈ 338 hours across all categories.
+***(7)*** Time Spent Analysis (DAX Metrics)**-Average time spent per student ≈ 338 hours across all categories.
 Web Development learners invested the most time (~367 h, 21 % share).
 Despite higher effort, completion rates remained below 50 %, suggesting potential content or engagement issues.
 
 #### DII)The Insights
 
-**1)** High enrollment does not guarantee high completion — targeted retention strategies are needed.
-**2)** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.
-**3)** Regional differences highlight the need for localized learning support.
-**4)** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.
-**5)** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.
+***(1)*** High enrollment does not guarantee high completion — targeted retention strategies are needed.
+***(2)*** Engagement levels correlate strongly with feedback ratings, validating user-experience influence.
+***3)*** Regional differences highlight the need for localized learning support.
+***4)*** The Power BI dashboard allows non-technical stakeholders to explore these insights dynamically.
+***(5)*** Data Science and Design courses show strong engagement but moderate completion.Hence,Learners are actively participating but not up to completing the course.
 
 #### DIII) Action Plan
 
-**1)** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
-**2)** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
+***(1)*** Use dashboards to monitor trends in dropout reasons and identify which modules consistently drive disengagement.
+***(2)*** Provide dedicated helpdesk support and knowledge base articles for technical or content-related queries.
 </details>
